@@ -13,6 +13,7 @@ li{
 }
 
 input{
+    outline: none;
     border: none;
     background-color: transparent;
     font-size: inherit;
@@ -31,6 +32,7 @@ input{
  
 
 #bg{
+    position: relative;
     background-color: rgb(201, 240, 244);
     height: 70vh;
     width: 70%;
@@ -41,9 +43,8 @@ input{
     border-radius: 5%;
     padding: 3%;
 }
-/* NOT WORKING */
-.position{
-    position: relative;
-    right: 1px;
-}
 
+#menu{
+    position: absolute;
+    top: 5%;
+}

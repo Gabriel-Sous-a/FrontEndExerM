@@ -4,17 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>To Do List</title>
     <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
     <main>
       <h1>To do list</h1>
       <div id="bg">
-        <form id="form">
-          <input id="value" />
-          <button id="add">Add</button>
-          <button id="delete">Delete All</button>
+        <form id="menu">
+          <div>
+            <input id="value" placeholder="Title"/>
+            <button id="add">Add</button>
+            <div>
+              <input type="textarea" placeholder="Description" id="description">
+              <input type="date">
+            </div>
+          </div>
+          <div>
+            <button id="delete">Delete All</button>
+            <button id="addLast">addLast</button>
+            <button id="addRandom">addRandom</button>
+            <br>
+            <button id="sortAlphabetically">sortAlphabetically</button>
+            <button id="sortDate">sortDate</button>
+          </div>
+         
         </form>
         <div id="div">
           <ul id="list"></ul>
